@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="you'r description">
+    <meta name="author" content="vasudev">
+    <meta name="keywords" content="HTML,Tutorial">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>HTML tutorial</title>
+    <h1>There is no spoon</h1>
+</head>
+<body style="background-color:silver";>
+    <hr/> <!-- adding horizontal separator line -->
+    </br> <!-- adding empty line-->
+    <p>This is a paragraph </p>
+    <p>This <b>bold</b>  <i><b>and</b></i> <i>italic</i> </p>
+    <p><b>2H<sub>2</sub>O</b> < -------- > <b>2H<sub>2</sub> </b> + <b>O<sub>2</sub> </b> </p> 
+    <p>10<sup>2</sup> =100</p>
+    <p> This is  <small>small</small> vs <big>big</big> </p>
+    <!--<script>alert("now is how you do it");</script> -->
+    
+    <!--color -->
+    <p style="color:violet; background-color:black;">COLOR</p>
+    <script src="first.js"></script> 
+</body>
+<!--structure tags won't make a difference to look of website but will improve
+    readability as:"aand search ability SEO optimization-->
+<header>
+    header
+    <nav>
+        <!-- enter navigation link-->
+    </nav>
+</header>
+<main>
+    main
+    <article>
+    </article>
+    <section>
+        <aside>
+            not related to core content see ad
+        </aside>
+    </section>
+</main>
+<footer>
+    footer
+</footer>
+<a href="https://www.duckduckgo.com" target="_blank">Search engine home page</a>
+<a href="Raccoondog-in-wildpark.jpeg" target="_blank"><h4>A Raccoon Dog</h4></a>
+<a href="page2.html"> <h3>Goto page2<h3> </a>
+<!-- Image -->
+<h3>Images</h3>
+<hr/>
+<img width="400" height="200" src="Raccoondog-in-wildpark.jpeg" alt="Raccoondog in the wild">
+
+<a href="https://static2.srcdn.com/wordpress/wp-content/uploads/2018/04/He-Man.jpg" target="_blank">
+<img width="400" src="Volcano.jpg" alt="Raccoondog in the wild">
+</a>
+<!-- Video -->
+<hr/>
+<h3>Videos</h3>
+<video src="TheSimpsonsFunniestScene.mp4" width="300" poster="simpsons_thumb.png"loop controls autoplay>The Simpsons</video>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pQN-pnXPaVg?start=4891" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- Lists -->
+<hr/>
+<h3>Lists</h3>
+<ul>
+    <li>sachin</li>
+    <li>dravid</li>
+    <li>kohli</li>
+</ul>
+<ol>
+    <li>sachin</li>
+    <li>dravid</li>
+    <li>kohli</li>
+</ol>
+
+<ol type="i">
+    <li>sachin</li>
+    <li>dravid</li>
+    <li>kohli</li>
+</ol>
+<dl>
+    <dt>Apples</dt>
+    <dd>They are red in color</dd>
+    <dt>banana</dt>
+    <dd>They are yellow in color</dd>
+</dl>
+<!-- Tables -->
+<hr/>
+<h3>Tables</h3>
+<table>
+    <thead>
+        <caption> <h2>List of Numbers</h2> </caption>
+        <tr>
+            <th>num1</th>
+            <th>num2</th>
+            <th>num3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>one</td>
+            <td>seven</td>
+            <td>nine</td>
+        </tr>
+         <tr>
+            <td>five</td>
+            <td>eleven</td>
+            <td>fourty</td>
+        </tr>
+         <tr>
+            <td>fiftyone</td>
+            <td>sixtyeight</td>
+            <td>ninetynine</td>
+        </tr>
+         <tr>
+            <td colspan="2">hundred</td>
+            <td>onetwelve</td>
+        </tr>
+</tbody>
+</table>
+<!-- Divs and spans  
+    1.Divs and spans are containers in html which wrap around html code css styling 
+    applied to this container will apply to all the code it contains.
+    2.Divs are block elements and spans are inline elements.-->
+
+<hr/>
+<h3>Divs&Spans</h3>
+<!--here the these are inline elements and will be displayed in the same line--> 
+<a href="#">Link1</a>
+<a href="#">Link2</a>
+<!--here the these Block elements and they block others from displaying on same line--> 
+<p>para 1</p>
+<p>para 2</p>
+<span>span1</span>
+<span>span2</span>
+<div>div1</div>
+<div>div2</div>
+<!--Input & Forums--> 
+<hr/>
+<h3>Input&Forms</h3>
+<input type="text" />
+<input type="password"/>
+<textarea id="a" name="dev" cols="30" rows="10"></textarea>
+<input type="date"/>
+<input type="email"/>
+<input type="range"/>
+<input type="file"/>
+<input type="submit"/>
+<input type="button" value="Page2" onclick="location.href='/page2.html'" />
+<input type="button" value="Click me" onclick="msg()" />
+<script>
+    function msg() {
+        alert("you have pressed the button");
+    }
+</script>
+</br>
+<!--can select both at the same time-->
+<input  type="checkbox"/>
+<input  type="checkbox"/>
+</br>
+<!--can't select 2 radio buttons with same name at the same time-->
+
+<input name="set1" type="radio"/>
+<input name="set1" type="radio"/>
+<input name="set2" type="radio"/>
+<a href="https://www.w3schools.com/Tags/att_input_type.asp"target="_blank">For more info on input Tags</a>
+<!--Iframes Embed websites into our webpage--> 
+<hr/>
+<h3>IFrame</h3>
+<iframe src="https://en.wikipedia.org/wiki/HTML" frameborder="0" width="500" height="400">Sorry</iframe>
+<iframe src="https://giraffeacademy.com/" frameborder="0" width ="400" height="300">sorry</iframe>
+
+
+</html>
+

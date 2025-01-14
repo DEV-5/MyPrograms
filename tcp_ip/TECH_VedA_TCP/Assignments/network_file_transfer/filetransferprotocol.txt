@@ -1,0 +1,3 @@
+FTP intial draft:
+
+The server and the client should communnicate using a pre agreed port number

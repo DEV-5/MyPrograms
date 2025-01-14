@@ -1,0 +1,447 @@
+Python:
+1) List the native/built-in Data types in python
+ans: ->Dictionary ->List ->Set ->Strings ->Tuples
+ii)Give a very brief explanation about data types and When do you 
+    use a set, Tuple, list
+    ans: i)  Lists are mutable []
+         ii) Sets are unordered {}
+         iii)Tuple are immutable ()     
+ans:
+2) Print Key and value pair in dictionary
+ans: 
+    for item in my_dict:
+        print("Key :{},value:{}".format(item,mydict[item]))
+    (or)
+    for key,value in mydict.items():
+        print("Key :{},value:{}".format(key,value))
+ii)
+d = {1:10, 2:20, 4:40}
+
+ans required is = {1:10, 2:20, 4:50}
+
+d.update(d[2][50])
+3) 
+i) what are the common letters between two strings str1 = "rohit sharma" str2 = "virat kohli"
+   s1 = set(str1)
+   s2 = set(str2)
+   l1 = s1 & s2
+   l1 = {'t', 'i', 'o', 'h', 'a', 'r'}
+
+
+ii)
+                     List                                    |                   Array
+------------------------------------------------------------------------------------------------------------------------------------- 
+1. Can consist of elements belonging to different data types | 1. Only consists of elements belonging to the same data type
+2. No need to explicitly import a module for declaration     | 2. Need to explicitly import a module for declaration
+3. Cannot directly handle arithmetic operations              | 3. Can directly handle arithmetic operations
+4. Can be nested to contain different type of elements       | 4. Must contain either all nested elements of same size
+5. Preferred for shorter sequence of data items              | 5. Preferred for longer sequence of data items
+  Greater flexibility allows easy modification               |
+  (addition, deletion) of data   Less flexibility            |
+  since addition, deletion has to be done element wise       |
+6. The entire list can be printed without any                | 6. A loop has to be formed to print or access the components of array   
+  explicit looping                                           | 
+7. Consume larger memory for easy addition of elements       | 7. Comparatively more compact in memory size
+--------------------------------------------------------------------------------------------------------------------------------------
+
+4) copy 1 set to another
+ans:
+    set2 = set1.copy()  ||  set2 = set(set2)
+    set2.update(set1)   ||  set2 = set1 #doesn't work
+ii)Difference between == and is operator
+list1 = [1,2] 
+list2 = [1,2] 
+list3 = list1 
+
+List1 == List2 --> Returns True
+list1 is list2 --> returns False
+list1 is list3 --> returns True
+
+5)sampleset = {1,"Hello",[1,2],True}
+print(sampleset)  
+    Ans: Type error : unhashable type : 'list'
+A set is changable but it cannot contain changeable objects such as list and
+ dictionary
+ii) seta = {1.1,4}
+    setb = {2,3,seta} is it possible
+    as: Type error : unhashable type 'set'
+
+iii)seta = {"yellow","blue","black"}
+        print("Key:{},value:{}".format(key,value))
+        seta.discard()
+        seta.remove()
+        print(seta)
+        
+iv)) print(seta[1])
+    syntax error as set doesn't support indexing  
+
+6)  i) count frequency of words in python?
+    ii) how to know if a word is palindrome?
+
+7) Lista = [1,2,3,4,5,6]
+  i)   print(Lista[2:-1])
+  ans: 3,4,5
+  ii)  print(Lista[2:7])
+  ans: 3,4,5,6
+  iii) print(Lista[1:2:-1])
+        
+    how do i put new element 5 in between 3 and 4
+    now how to remove the last element
+    list.insert(3,5)
+    lista.remove(5)    will result in lista = [1,2,3,4,5,6]
+    in order to get use lista.pop() 
+    del lista[5]
+
+8) What is the output of the following tuple operation
+aTuple = (100,)
+print(aTuple * 3)
+ans:
+    (100,100,100)
+
+ii) atup = ("orange")
+    type(atup)
+ans:
+    <class 'str'>
+
+9) how to check if a test case is positive
+
+10)Are nested funtions allowed in pyhton? what are factory fuctions/ closure?
+Inner functions help us in defining factory functions. A factory function is a function that 
+creates another object.  The environment is saved
+
+def power_generator(num):
+    # Create the inner function
+    def power_n(power):
+        return num ** power
+    return power_n
+
+power_two = power_generator(2)
+power_three = power_generator(3)
+print(power_two(8)) #result 256
+print(power_three(4)) #result 81
+
+yield in python: 
+a)
+# initializing list  
+test_list = [1, 4, 5, 6, 7] 
+  
+# printing initial list 
+print ("The original list is : " +  str(test_list)) 
+  
+# printing even numbers  
+print ("The even numbers in list are : ", end = " ") 
+for j in print_even(test_list): 
+    print (j, end = " ") 
+b)
+def nextSquare():
+    i = 1;  
+  
+    # An Infinite loop to generate squares  
+    while True:  
+        yield i*i                  
+        i += 1 # Next execution resumes  
+                # from this point      
+  
+# Driver code  
+for num in nextSquare():  
+    if num > 100:  
+        break    
+    print(num)  
+
+
+11) what is the size of an empty list?
+    a = []
+    sys.getsizeof(a)
+    56
+ii). How will you reverse a list in Python?
+The function list.reverse() reverses the objects of a list.
+
+12) what is a constructor and what is a destructor and how to declare them
+    def __init__(self):
+        print ("constructor")
+
+    def __del__(self):
+        print ("destructor")
+    ii)
+iii) public private and protected in python
+self.__name=name  # private attribute 
+self._name=name   # protected attribute
+self.name=name    # public attribute
+
+13)Can you write an efficient code to count the number of capital letters in a file?
+with open(SOME_LARGE_FILE) as countletter:
+count = 0
+text = countletter.read()
+for character in text:
+if character.isupper():
+count += 1
+
+14)What is a map function in Python?
+The map() function in Python has two parameters, function and iterable. The map() function takes a function as an argument and then applies that function to all the elements of an iterable, passed to it as another argument. It returns an object list of results.
+
+def calculateSq(n):
+return n*n
+numbers = (2, 3, 4, 5)
+result = map( calculateSq, numbers)
+print(result)
+
+15)Explain the use of the 'with' statement and its syntax.
+
+In Python, using the ‘with’ statement, we can open a file and close it as soon as the block of code, where ‘with’ is used, exits. In this way, we can opt for not using the close() method.
+with open("filename", "mode") as file_var:
+
+ii) how to delete a file in python
+import os
+if os.path.exists("demofile.txt"):
+  os.remove("demofile.txt")
+To remove folder
+    os.rmdir("myfolder") 
+
+iii)how to open an binary file in Read only: 
+open(filename, mode='rb')
+
+16)Is multiple inheritance supported in Python?
+
+Yes, unlike Java, Python provides users with a wide range of support in terms of inheritance and its usage. Multiple inheritance refers to a scenario where a class is instantiated from more than one individual parent class. This provides a lot of functionality and advantages to users.
+
+Class Base1:
+       Body of the class
+Class Base2:
+     Body of the class
+Class Derived(Base1, Base2):
+     Body of the class   
+
+ii)MRO
+# Python program showing 
+# how MRO works 
+  
+class A: 
+    def prt(self): 
+        print(" In class A") 
+class B(A): 
+    def prt(self): 
+        prt(" In class B") 
+class C(A): 
+    def prt(self): 
+        print("In class C") 
+  
+# classes ordering 
+class D(B, C): 
+    pass
+     
+r = D() 
+r.prt() 
+  
+iii) what is a classmethod and a staticmethod
+
+17)myString = "hello"
+stringList = ["hi", "hello"]
+print(stringList[1] == myString)
+print(stringList[1] is myString)
+ii)str1 = 'Welcome'
+print(str1*2)
+
+18) Are stings immutable?
+    str1 = "first" 
+    id(str1) 
+    str1 = str1+ " Two" 
+    id(str1)
+19) how to empty a dictionary?
+student = { 
+  "name": "Emma", 
+  "class": 9, 
+  "marks": 75 
+} 
+student.clear()
+ii)student.pop(“marks”) allowed 
+20)perform multiplication without * and loop?
+int multiply(int firstnum, int secondnum){
+ 
+    // If second number is zero then the product is zero.
+ 
+    if(secondnum == 0){
+        return 0;
+    } else {
+ 
+       // Add first num, until second num is equal to zero.
+       return (firstnum + multiply(firstnum, secondnum-1));
+    }
+ 
+}
+21)how to set and clear a particular bit in python?
+set: (n | (1 << (k - 1))) 
+flip
+
+22) Lamda expression:
+    g = lambda x: 3x+1
+    g(3)
+    scifi_author = ["Isaac Asimov","Robert Heinlein","H. G. Wells"]
+    scifi_author.sort(key=lambda name: name.split()[-1].lower())
+
+23) Exceptions in python:
+
+try:
+# code where exception an may take place
+except:
+# executes on exception
+else:
+# will execute if no exception
+finally:
+# executes no mater what
+
+24)zip() in Python
+name = [ "Manjeet", "Nikhil", "Shambhavi", "Astha" ]
+roll_no = [ 4, 1, 3, 2 ]
+marks = [ 40, 50, 60, 70 ]
+# converting values to print as list
+mapped = list(mapped)
+# result: [('Manjeet', 4, 40), ('Nikhil', 1, 50), ('Shambhavi', 3, 60), ('Astha', 2, 70)]
+
+
+# using zip() to map values 
+mapped = zip(name, roll_no, marks) 
+# unzipping values 
+namz, roll_noz, marksz = zip(*mapped) 
+
+25)Python – Split strings ignoring the space formatting characters
+‘geeksforgeeks\n\r\\nt\t\n\t\tbest\r\tfor\f\vgeeks’ 
+res = re.split(r'[\n\t\f\v\r ]+', test_str) 
+
+26)super keyword
+
+27)decorator
+
+28)deep copy vs shallow copy
+
+29)regular expressions
+
+30)how to create a package in python 
+
+31)how to call a function from importing class without an object
+32) Searching techniques and sorting techniques
+33) algorithms questions.
+        - searching techniques(Linear Search and Binary Search)
+        - the use-case for quickSort and mergeSort
+34) setattr and getattr
+    
+
+Testing:
+0)how do you do go across developing test cases?
+    gather test requirement
+    implement a test design draft and get it approved
+    implement a test case 
+    integrate it to test automation
+
+1) how to test if a littleendian or bigendian
+ if a = 0x0A0B0C0D 
+    in case of little endian 0D will be stored at 5000 and 0C at 5001 and so on 
+    in case of big endian 0A will be stored at 5000 and 0B at 5001 and so on 
+  python:
+    from sys import byte order
+    print(byteorder)
+    # will print 'little' if little endian
+    
+c/c++:
+    int n = 1;
+    // little endian if true
+    if(*(char *)&n == 1) {...}
+
+2)  How to 
+
+C:
+
+1)What is dangling pointer in C?
+Generally, dangling pointers arise when the referencing object is deleted or deallocated, 
+2)What is a far pointer in C?
+A far pointer is typically 32- bit pointer that can access memory outside the current segment. To use this, the compiler 
+allocates a segment register to store segment address, then another register to store offset within the current segment.
+3)What is the size of a void pointer in C?
+4)what is a memory leak how to find it?
+5)How do you implement conditional compilation in c?
+6)How to avoid inclusion of a header multiple times.
+7)How do you Redirected Standard Stream of a process?
+8)Difference between const int*, const int * const, and int const *
+ int const* is pointer to constant integer, int const* is equivalent to const int*. 
+
+    const int q = 5; 
+    int const* p = &q; 
+    *p = 7; //Compilation error 
+    const int q2 = 7; 
+    p = &q2;  //Valid 
+
+ int *const is a constant pointer to integer 
+
+    const int q = 5; 
+    int *const p = &q;  //Compilation error  *need to check
+    *p = 7;  //Valid 
+    const int q2 = 7; 
+    p = &q2;   //Compilation error 
+
+ const int* const is a constant pointer to constant integer hence const int* const is equivalent to int const* const.
+ 
+    const int q = 5; 
+    const int* const p = &q; //Valid 
+    *p = 7; //Compilation error 
+    const int q2 = 7; 
+    p = &q2; //Compilation error 
+9)
+int* fn(int);
+
+main()
+{
+int a = 10;
+int* c;
+c = fn(a);
+printf("c = %d",c[1]);
+}
+
+int* fn(int var)
+{
+    int b[] =(10,20);
+     b[1]=a;
+    return b; 
+}
+10)What are some storage specifiers in c ?
+In C, there are four storage specifiers:
+
+    Auto 
+    Static
+    Register 
+    Extern 
+11) Different stages of a processor
+12) How is the null pointer different from a void pointer?
+
+
+Embedded basics:
+1) What Is Isr?
+2). What Is Interrupt Latency?
+3)What Is Rtos?
+Answer :
+In an operating system, there is a module called the scheduler, which schedules different tasks and determines when a process will execute on the processor. This way, the multi-tasking is achieved. The scheduler in a Real Time Operating System (RTOS) is designed to provide a predictable execution pattern. In an embedded system, a certain event must be entertained in strictly defined time.
+To meet real time requirements, the behaviour of the scheduler must be predictable. This type of OS which have a scheduler with predictable execution pattern is called Real Time OS(RTOS).
+4)Significance Of Watchdog Timer In Embedded Systems?
+The watchdog timer is a timing device with a predefined time interval. During that interval, some event may occur or else the device generates a time out signal. It is used to reset to the original state whenever some inappropriate events take place which can result in system malfunction. It is usually operated by counter devices.
+5)what is critical section?
+
+Linux:
+
+1) what is bottom half
+top half has important code which doesn't cause wait for resources bottom half
+ is a softirqs or tasklet or a work queue  which is executed during bottom half
+ all interrupts are enabled.
+2) what is a mutex ?
+3) What Is A Semaphore? What Are The Different Types Of Semaphore?
+• The binary semaphore which can take only 0,1 values. (used when there is contention for a single resource entity). 
+• The counting semaphore which can take incremental values to certain limit (used when number of resources is limited).
+4) How to identify an 
+5) Each process has three  stdout stdin stderr
+6) how to create a file 
+    ans: touch sample.txt
+7) how to remove a background process from memory
+8) how to change permissions and ownership in Linux 
+    ans: chmod permissions filename ;  chown user:group filename ; chgrp group_name filename
+9)how to know the current ram consumption: free -m , htop and top
+10) what is an inode value
+11)list 
+    ans: i)  Lists are mutable []
+

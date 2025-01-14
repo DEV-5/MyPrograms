@@ -1,0 +1,142 @@
+Thi
+/This list is compiled by Vasudev
+Contains a list of assignment qustions in c provided at vector
+
+1)conditional operator based assignment:
+    i)enter three intigers and find the highest  (ans:cond_op3.c)
+    ii)enter a char and if the char is lower case convert it to upper case  (ans:cond_op.c)
+    iii)enter two number and find out the relationship [i.e greater lesser or equal to] between the two numbers (ans:cond_op2.c)
+
+2) Recursion and itteration based assignments:
+    i)program to print  fibonacci series.
+    ii)program to find the value of a number raised to its exponent. 
+    iii)program to reverse an integer entered by the user.
+    iv)program to find the sum of the digits.
+
+3)Diplay a given pattern:
+   
+    i)(ans:pattern_1.c)
+
+        ******
+        *****
+        ****
+        ***
+        **
+        *
+
+    ii)(ans:pattern_2.c)
+
+        * * * * *
+         * * * *
+          * * *
+           * *
+            *
+    
+    iii)(ans:pattern_3.c)
+  
+        0
+        0 1
+        0 1 0
+        0 1 0 1
+        0 1 0 1 0
+        0 1 0 1 0 1  
+    
+    iv)(ans:pattern_4.c)
+
+           *
+          * *
+         * * *
+        * * * *
+         * * *
+          * *
+           *
+
+     v)(ans:pattern_5.c)
+        
+        *
+        * *
+        * * *
+        * * * *
+        * * *
+        * *
+        *
+
+    vi)program to print multiplication tables with right allignment by using %*d and %-d
+
+4)Program to implement the following patterns:
+    
+    i)(ans:pattern_1.c)
+        * * * * *
+         * * * *
+          * * *
+           * *
+            *
+           * *
+          * * *
+         * * * *
+        * * * * *
+   
+    ii)(ans:pattern_2.c)
+     
+        * * *
+          * *
+            *
+          * *
+        * * *
+
+    iii)(ans:pattern_3.c)
+        
+      *           *
+      * *       * *
+      * * *   * * *
+      * * * * * * *
+
+    iv)(ans:pattern_4.c)
+        
+     *       *
+     * *   * *
+     * * * * *
+     * *   * *
+     *       *
+
+5)
+     i)Determine whether a given number is prime or not.(ans:prime.c)
+    ii)Print all the prime numbers in a give range.(ans:prime_digit.c)
+
+6)write a menu driven program to find the number a digits present or find the reverse of a  number or the sum of the digits or 
+  highest or the lowest value amongst the inputs.  
+
+7
+    i)program to print the binary equivalent of double
+    ii)program to test if data is little endian and if little convert it to big endian 
+
+8)
+    i)Generate a random word and find the no of vowels in the string.
+    ii)Generate a mark array with random marks for all students and determine the grade for each student.
+
+9)
+    i)Divide a given string into two halves and then swap their values.
+    ii)input two strings and insert second string in a given  position in the first string.
+    iii)program to enter a string and remove any character other than alphabets.
+
+10)
+    i)program to input two strings and  verify  that they are anagrams of one other.
+    ii)To remove any extra blank spaces present in the sentence inputed. (blankspace.c)
+    iii)To delete or replace a word inputed by the user. (dual_string.c)
+
+11)Write a program to calculate grade of student for a given set of exams and also diplay students with lowest and higest average marks. (2darray.c) 
+
+12)Menu driven program with 2d array. (2d_menudriven.c)
+
+13)Comandline calculator. (expeval.c)
+
+14) 
+    i)menu driven program with  2darray dynamic memory allocation for person contact database. (2d_dma.c)
+    ii)menu driven program with  2darray using dynamic memory allocation and pointers.
+
+15)
+    i)
+    ii)
+16)
+
+17)Remove additional Whitespaces in the file as mentioned in the commmand line argument. 

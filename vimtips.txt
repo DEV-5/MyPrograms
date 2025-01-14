@@ -1,0 +1,46 @@
+VIM TIPS --vasudev.m
+ 
+1)You could use :%s/.\{N}$//   to delete N character off the end of each line.
+2)You can use   :%g!/price/d   to delete every line that doesn't contain "price"
+3)you can use   :g /price/d    to delete all lines that contain the word "price"
+4)to search and replace a string in vim: :%s/<search_string>/<replace_string>/g
+  to do whole string comparison :%s/\<search_string\>/replace_string
+  to perform substitutions on a range we can use start_num,end_num s/<search_string>/<replace_string>
+  eg :%g!/?LDRA_EXH/d
+5)To indent the whole file automatically:gg=G
+               g - go to
+    gg - go to beginning of the file
+    G - go to end of the file
+    = - indent
+6)sort lines 296 to 349, inclusive              :296,349sort
+7)sort the whole doc and remove duplicate lines :%sort u
+8):e (short for :edit) to reload current file. If you use :edit! it will discard local changes and reload.
+9)to find the changes made to current file use :w !diff % -
+ 
+10)VIMDIFF
+do - Get changes from other window into the current window.
+dp - Put the changes from current window into the other window.
+]c - Jump to the next change.
+[c - Jump to the previous change.
+:diffupdate - re-scan the files for differences
+ 
+11) zo -> to open fold.
+               zc -> to close fold.
+12)to find "number of highlighted columns" :set showcmd
+13)You want the NERDTreeIgnore option. For example, in your .vimrc: let NERDTreeIgnore = ['\.pyc$']
+14)to delete n+1 last char in every in :g/$/norm $nXx
+15) to redo(undo a undo) press ctrl+r
+16) Autocompletion using ctrl n and ctrl p
+ctrl x + ctrl L autocomplete whole
+17)To delete the text before FOO on the same line :s/^.*\(FOO\)/\1/ add % before s for recursive deletion
+18) To delete form cursor postion to the end of current line use: D (shift + d) or d$ 
+19) Use either of the following commands to delete all empty lines: :g/^$/d (or)  :v/./d
+
+
+Vim To Do:
+-> can we get popup declarations of macros and functions. (tooltips for vim)
+->
+
+->bash to watch output
+sudo watch -n 0.1 "dmesg | tail -n $((LINES-6))"
+

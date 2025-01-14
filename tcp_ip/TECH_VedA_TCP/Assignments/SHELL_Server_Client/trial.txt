@@ -1,0 +1,15 @@
+a.out
+cmd_ouput_file.txt
+shell_cli
+SHELL_Client
+SHELL_Client_2
+SHELL_Client_2.c
+SHELL_Client.c
+shell_serv
+SHELL_Server
+SHELL_Server_2
+SHELL_Server_2.c
+SHELL_Server.c
+sh_ser
+temp_file.txt
+trial.txt

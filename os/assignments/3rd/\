@@ -1,0 +1,16 @@
+
+//DATE:26-12-16
+#include<stdio.h>
+#include<stdlib.h>
+#include<sys/wait.h>
+#include<unistd.h>
+int main()
+{
+ char choice;
+ printf("\n this a sigcatch program");
+ if(fork()==0)
+ {
+  printf("child1: pid=%d\n please enter an alphabet: ",getpid());
+  scanf("%c",&choice);
+ }
+}

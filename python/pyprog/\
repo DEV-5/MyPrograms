@@ -1,0 +1,25 @@
+
+import sys
+
+def compress(buf):
+    words={}
+    buff=""
+    for word in buf.split():
+        if words.has_key(word):
+            words[word]+=1
+        else:
+         words[word]=1
+    print words.items()
+    for keys in words.key():
+        buff.
+    return buff
+
+
+fp=open(sys.argv[1])
+buff=fp.read()
+size_o=len(buff)
+fp.close()
+buff2=compress(buff)
+size_a=len(buff)
+print "the size was %d and it is %d\n"%(size_o,size_a)
+#print ("the size was %d and it is %d"%(size_o,size_a))

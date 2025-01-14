@@ -1,0 +1,20 @@
+
+//DATE:18-12-16
+void myprint(char *,...);
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<stdarg.h>
+
+int main()
+{
+ myprint("this is a test message \n");
+ 
+}
+void myprint(char* first,...)
+{
+ va_list handle;
+ va_start(handle,first);
+ //please insert code here//
+ va_end(handle);
+}

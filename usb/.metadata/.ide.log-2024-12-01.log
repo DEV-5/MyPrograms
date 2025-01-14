@@ -1,0 +1,257 @@
+2024-12-02 09:07:18,728 [INFO] WebApp:190 - Connection lost
+2024-12-02 09:07:20,794 [INFO] WebAppUi:1089 - Web application message: Reloading CAD
+2024-12-02 09:07:24,122 [INFO] WebApp:187 - Connection restablished
+2024-12-02 14:36:31,839 [INFO] WebApp:190 - Connection lost
+2024-12-02 14:36:33,913 [INFO] WebAppUi:1089 - Web application message: Reloading CAD
+2024-12-02 14:36:36,917 [INFO] WebApp:187 - Connection restablished
+2024-12-02 16:46:11,373 [INFO] WebApp:190 - Connection lost
+2024-12-02 16:46:11,446 [INFO] WebAppUi:1089 - Web application message: Reloading CAD
+2024-12-02 16:46:16,951 [INFO] WebApp:187 - Connection restablished
+2024-12-02 18:15:09,260 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:09,261 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:09,261 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:09,262 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:09,262 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:09,262 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:15,660 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:15,660 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:15,660 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:15,661 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:15,661 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:15,661 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:21,937 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:21,937 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:21,937 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:21,938 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:21,938 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:21,938 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:26,880 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:26,880 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:26,880 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:26,881 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:26,881 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:26,881 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:40,058 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:40,058 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:40,058 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:40,059 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:40,059 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:40,059 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:46,391 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:46,391 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:46,391 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:46,392 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:46,392 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:46,392 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:54,740 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:54,740 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:54,740 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:54,740 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:54,740 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:15:54,740 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:07,266 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:07,266 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:07,266 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:07,267 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:07,267 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:07,267 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:13,177 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:13,177 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:13,177 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:13,178 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:13,178 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:13,178 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:16,018 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:16,018 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:16,018 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:16,018 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:16,019 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:16,019 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:21,910 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:21,911 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:21,911 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:21,912 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:21,912 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:21,912 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:30,057 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:30,057 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:30,057 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:30,058 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:30,058 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:30,058 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:37,348 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:37,348 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:37,348 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:37,349 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:37,349 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:37,349 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:42,176 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:42,176 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:42,176 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:42,177 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:42,177 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:42,177 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:46,623 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:46,623 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:46,623 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:46,623 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:46,623 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:46,624 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:50,720 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:50,720 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:50,720 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:50,720 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:50,720 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:50,720 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:52,631 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:52,631 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:52,631 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:52,632 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:52,632 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:52,632 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:54,217 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:54,217 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:54,217 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:54,218 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:54,218 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:54,218 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:58,407 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:58,407 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:58,407 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:58,407 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:58,407 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:16:58,408 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:09,904 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:09,904 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:09,904 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:09,905 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:09,905 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:09,905 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:15,552 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:15,552 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:15,553 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:15,553 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:15,553 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:15,553 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:19,358 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:19,358 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:19,358 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:19,359 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:19,359 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:19,359 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:21,677 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:21,677 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:21,677 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:21,677 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:21,677 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:21,677 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:25,191 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:25,191 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:25,191 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:25,192 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:25,192 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:25,192 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:33,117 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:33,117 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:33,117 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:33,118 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:33,118 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:33,118 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:37,817 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:37,817 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:37,817 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:37,817 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:37,817 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:17:37,817 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:18:00,890 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:18:00,890 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:18:00,890 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:18:00,891 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:18:00,891 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:18:00,891 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:18:01,902 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 377753504 Bytes (884998144)
+2024-12-02 18:18:29,927 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,601x377,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-02 18:18:53,000 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:18:53,000 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:18:53,000 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:21:33,435 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 422696864 Bytes (884998144)
+2024-12-02 18:21:36,971 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 485349296 Bytes (884998144)
+2024-12-02 18:21:37,137 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB_OTG_FS
+2024-12-02 18:21:37,137 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-02 18:21:37,137 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB_DEVICE
+2024-12-02 18:21:37,137 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-02 18:21:37,137 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-02 18:21:37,137 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-02 18:21:37,162 [INFO] CodeGenerator:896 - code generatio: config db path: /opt/stm32cubeide/plugins/com.st.stm32cube.common.mx_6.13.0.202411220809//db/
+2024-12-02 18:21:37,169 [WARN] IP:2251 - DEVICE_SERIAL0_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:21:37,169 [WARN] IP:2251 - DEVICE_SERIAL1_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:21:37,169 [WARN] IP:2251 - DEVICE_SERIAL2_AUDIO_FS not found: check if there is a RefParameter without a condition.
+2024-12-02 18:21:37,330 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/MXTmpFiles/license.tmp_save
+2024-12-02 18:21:37,660 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/MXTmpFiles/license.tmp
+2024-12-02 18:21:37,791 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/MXTmpFiles/gpio.tmp_save
+2024-12-02 18:21:37,890 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/MXTmpFiles/gpio.tmp
+2024-12-02 18:21:37,982 [WARN] IPConfigManager:3034 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-12-02 18:21:38,003 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/MXTmpFiles/usb_otg_fs_vars.tmp_save
+2024-12-02 18:21:38,080 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/MXTmpFiles/usb_otg_fs_vars.tmp
+2024-12-02 18:21:38,081 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/MXTmpFiles/usb_otg_fs_inc.tmp_save
+2024-12-02 18:21:38,143 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/MXTmpFiles/usb_otg_fs_inc.tmp
+2024-12-02 18:21:38,145 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/MXTmpFiles/usb_otg_fs_HalInit.tmp_save
+2024-12-02 18:21:38,281 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/MXTmpFiles/usb_otg_fs_HalInit.tmp
+2024-12-02 18:21:38,283 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/MXTmpFiles/usb_otg_fs_Msp.tmp_save
+2024-12-02 18:21:38,370 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/MXTmpFiles/usb_otg_fs_Msp.tmp
+2024-12-02 18:21:38,464 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-02 18:21:38,489 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-02 18:21:38,510 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/USB_DEVICE/App/usb_device.c_save
+2024-12-02 18:21:38,614 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/USB_DEVICE/App/usb_device.c
+2024-12-02 18:21:38,616 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/USB_DEVICE/App/usb_device.h_save
+2024-12-02 18:21:38,677 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/USB_DEVICE/App/usb_device.h
+2024-12-02 18:21:38,701 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/USB_DEVICE/Target/usbd_conf.h_save
+2024-12-02 18:21:38,758 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/USB_DEVICE/Target/usbd_conf.h
+2024-12-02 18:21:38,775 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/USB_DEVICE/Target/usbd_conf.c_save
+2024-12-02 18:21:38,838 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/USB_DEVICE/Target/usbd_conf.c
+2024-12-02 18:21:38,841 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/USB_DEVICE/App/usbd_desc.h_save
+2024-12-02 18:21:38,899 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/USB_DEVICE/App/usbd_desc.h
+2024-12-02 18:21:38,900 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/USB_DEVICE/App/usbd_desc.c_save
+2024-12-02 18:21:38,962 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/USB_DEVICE/App/usbd_desc.c
+2024-12-02 18:21:38,980 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/USB_DEVICE/App/usbd_audio_if.h_save
+2024-12-02 18:21:39,034 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/USB_DEVICE/App/usbd_audio_if.h
+2024-12-02 18:21:39,055 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/USB_DEVICE/App/usbd_audio_if.c_save
+2024-12-02 18:21:39,113 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/USB_DEVICE/App/usbd_audio_if.c
+2024-12-02 18:21:39,129 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/Core/Src/stm32f4xx_it.c_save
+2024-12-02 18:21:41,482 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/Core/Src/stm32f4xx_it.c
+2024-12-02 18:21:41,769 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/Core/Inc/stm32f4xx_it.h_save
+2024-12-02 18:21:41,834 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/Core/Inc/stm32f4xx_it.h
+2024-12-02 18:21:41,846 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/Core/Src/stm32f4xx_hal_msp.c_save
+2024-12-02 18:21:41,920 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/Core/Src/stm32f4xx_hal_msp.c
+2024-12-02 18:21:41,921 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/MXTmpFiles/system.tmp_save
+2024-12-02 18:21:41,973 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/MXTmpFiles/system.tmp
+2024-12-02 18:21:42,007 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/Core/Inc/stm32_assert.h_save
+2024-12-02 18:21:42,057 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/Core/Inc/stm32_assert.h
+2024-12-02 18:21:42,074 [INFO] CodeEngine:311 - oldGeneratedFile, /home/vdev/programming/usb/PDM/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-12-02 18:21:42,134 [INFO] CodeEngine:335 - Generated code: /home/vdev/programming/usb/PDM/Core/Inc/stm32f4xx_hal_conf.h
+2024-12-02 18:21:42,152 [WARN] IPConfigManager:3034 - Warning: the RefConfig RCC_PLL_PLLM_CONFIG is not available in your config.xml file
+2024-12-02 18:21:42,152 [WARN] IPConfigManager:3034 - Warning: the RefConfig RCC_PLL_PLLSOURCE_CONFIG is not available in your config.xml file
+2024-12-02 18:21:42,152 [WARN] IPConfigManager:3034 - Warning: the RefConfig RCC_ConfigVoltageScaling is not available in your config.xml file
+2024-12-02 18:21:42,154 [WARN] IPConfigManager:3034 - Warning: the RefConfig RCC_ClockConfig is not available in your config.xml file
+2024-12-02 18:21:42,155 [WARN] IPConfigManager:3034 - Warning: the RefConfig RCC_MCO1Config is not available in your config.xml file
+2024-12-02 18:21:42,155 [WARN] IPConfigManager:3034 - Warning: the RefConfig RCC_MCO2Config is not available in your config.xml file
+2024-12-02 18:21:42,155 [WARN] IPConfigManager:3034 - Warning: the RefConfig RCC_interrupt_Time_SYSTICK_Config is not available in your config.xml file
+2024-12-02 18:21:42,155 [WARN] IPConfigManager:3034 - Warning: the RefConfig RCC_SYSTICK_CONFIG is not available in your config.xml file
+2024-12-02 18:21:42,181 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/Core/Inc/main.h_save
+2024-12-02 18:21:42,268 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/Core/Inc/main.h
+2024-12-02 18:21:42,315 [INFO] CodeEngine:255 - oldGeneratedFile, /home/vdev/programming/usb/PDM/Core/Src/main.c_save
+2024-12-02 18:21:42,458 [INFO] CodeEngine:279 - Generated code: /home/vdev/programming/usb/PDM/Core/Src/main.c
+2024-12-02 18:21:43,538 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 823mS.
+2024-12-02 18:21:43,541 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2024-12-02 18:21:43,654 [INFO] ConfigFileManager:1579 - The Die is : DIE433
+2024-12-02 18:21:44,866 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 1325mS.
+2024-12-02 18:21:44,867 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-02 18:21:44,867 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-02 19:59:03,112 [INFO] WebAppUi:1089 - Web application message: Reloading CAD
+2024-12-02 19:59:04,287 [INFO] WebApp:190 - Connection lost
+2024-12-02 19:59:06,279 [INFO] WebApp:187 - Connection restablished
+2024-12-02 20:59:16,064 [INFO] WebAppUi:294 - Path where cad_preferences.json is located /root/.stm32cubeide/
+2024-12-02 20:59:16,064 [INFO] WebAppUi:295 - Updating consent from JSON file
+2024-12-02 20:59:17,586 [INFO] WebApp:389 - JxBrowser engine has been closed 
+2024-12-02 20:59:17,586 [INFO] WebAppUi:493 - JxBrowser engine has been closed 
+2024-12-02 20:59:17,617 [INFO] WebAppUi:530 - Close the Jxbrowser engine manually

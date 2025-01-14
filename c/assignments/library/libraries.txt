@@ -1,0 +1,34 @@
+List of commands:
+
+Static linkage:
+
+gcc -c add.c 
+gcc -c div.c 
+
+ar -rcs libmymath.a add.o div.o 
+(r :Insert the files member into archive, c :Create the archive, s :Write an object-file index into the archive)
+
+gcc -o res  main_dynamic.o -L. -l _add
+
+
+ldd ./app print so that app needs
+
+Dynamic linkage:
+gcc -c -fpic add.c
+gcc -c -fpic div.c
+
+gcc -shared -o libdynmath.so add.o div.o
+
+gcc
+
+Gnu bin utilities Tools:
+readelf
+ld
+objdump -D
+objdump -S
+nm
+size
+file
+
+
+

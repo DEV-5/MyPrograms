@@ -1,0 +1,7 @@
+cmd_ouput_file.txt
+shell_cli
+SHELL_Client
+SHELL_Client.c
+shell_serv
+SHELL_Server
+SHELL_Server.c
