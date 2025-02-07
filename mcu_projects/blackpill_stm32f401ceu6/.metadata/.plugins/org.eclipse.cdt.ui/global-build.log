@@ -1,0 +1,42 @@
+10:20:17 **** Incremental Build of configuration Debug for project swo_example ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F401CEUx -DSTM32 -DSTM32F4 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc -o "swo_example.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/swo_example/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="swo_example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: swo_example.elf
+ 
+arm-none-eabi-size  swo_example.elf 
+arm-none-eabi-objdump -h -S swo_example.elf  > "swo_example.list"
+   text	   data	    bss	    dec	    hex	filename
+   3408	     92	   1900	   5400	   1518	swo_example.elf
+Finished building: default.size.stdout
+ 
+Finished building: swo_example.list
+ 
+10:20:23 **** Incremental Build of configuration Debug for project swo_example ****
+make -j8 all 
+arm-none-eabi-size  swo_example.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3408	     92	   1900	   5400	   1518	swo_example.elf
+Finished building: default.size.stdout
+ 
+10:21:16 **** Incremental Build of configuration Debug for project swo_example ****
+make -j8 all 
+arm-none-eabi-size  swo_example.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3408	     92	   1900	   5400	   1518	swo_example.elf
+Finished building: default.size.stdout
+ 
+10:23:59 **** Incremental Build of configuration Debug for project swo_example ****
+make -j8 all 
+arm-none-eabi-size  swo_example.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3408	     92	   1900	   5400	   1518	swo_example.elf
+Finished building: default.size.stdout
+ 
+10:24:24 **** Incremental Build of configuration Debug for project swo_example ****
+make -j8 all 
+arm-none-eabi-size  swo_example.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3408	     92	   1900	   5400	   1518	swo_example.elf
+Finished building: default.size.stdout
+ 

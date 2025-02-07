@@ -1,0 +1,235 @@
+!SESSION 2025-02-05 22:23:56.814 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-05 22:25:23.381
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-05 22:25:23.381
+!MESSAGE Log4j2 initialized with config file /home/vdev/Documents/MyPrograms/mcu_projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-05 22:25:35.470
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-02-05 22:27:06.833
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+com.teamdev.jxbrowser.navigation.TimeoutException: Failed to complete the navigation within 45 seconds.
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadAndWait(NavigationImpl.java:232)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:104)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:91)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:83)
+	at com.teamdev.jxbrowser.browser.internal.BrowserImpl.initializeMainFrame(BrowserImpl.java:401)
+	at com.teamdev.jxbrowser.profile.internal.ProfileImpl.newBrowser(ProfileImpl.java:150)
+	at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:173)
+	at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:759)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:488)
+	at com.st.microxplorer.plugins.userauth.UserAuth.checkInfile(UserAuth.java:251)
+	at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:169)
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2025-02-05 22:27:06.834
+!MESSAGE Unable to execute early startup code for the org.eclipse.ui.IStartup extension contributed by the 'com.st.stm32cube.ide.mcu.ide' plug-in.
+!STACK 0
+com.teamdev.jxbrowser.navigation.TimeoutException: Failed to complete the navigation within 45 seconds.
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadAndWait(NavigationImpl.java:232)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:104)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:91)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:83)
+	at com.teamdev.jxbrowser.browser.internal.BrowserImpl.initializeMainFrame(BrowserImpl.java:401)
+	at com.teamdev.jxbrowser.profile.internal.ProfileImpl.newBrowser(ProfileImpl.java:150)
+	at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:173)
+	at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:759)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:488)
+	at com.st.microxplorer.plugins.userauth.UserAuth.checkInfile(UserAuth.java:251)
+	at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:169)
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-02-05 22:35:18.277 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-05 22:35:26.226
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-05 22:35:26.227
+!MESSAGE Log4j2 initialized with config file /home/vdev/Documents/MyPrograms/mcu_projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-05 22:35:30.459
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-02-05 22:35:50.968
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+com.teamdev.jxbrowser.navigation.TimeoutException: Failed to complete the navigation within 10 seconds.
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadAndWait(NavigationImpl.java:232)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:104)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:91)
+	at com.st.microxplorer.plugins.userauth.WebApp.startREACTclient(WebApp.java:581)
+	at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:222)
+	at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:759)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:488)
+	at com.st.microxplorer.plugins.userauth.UserAuth.checkInfile(UserAuth.java:251)
+	at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:169)
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2025-02-05 22:35:50.969
+!MESSAGE Unable to execute early startup code for the org.eclipse.ui.IStartup extension contributed by the 'com.st.stm32cube.ide.mcu.ide' plug-in.
+!STACK 0
+com.teamdev.jxbrowser.navigation.TimeoutException: Failed to complete the navigation within 10 seconds.
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadAndWait(NavigationImpl.java:232)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:104)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:91)
+	at com.st.microxplorer.plugins.userauth.WebApp.startREACTclient(WebApp.java:581)
+	at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:222)
+	at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:759)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:488)
+	at com.st.microxplorer.plugins.userauth.UserAuth.checkInfile(UserAuth.java:251)
+	at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:169)
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2025-02-05 22:36:49.681
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.simpleRepository
+!STACK 0
+java.lang.IllegalStateException: bundle org.eclipse.equinox.p2.repository is not started
+	at org.eclipse.equinox.internal.p2.repository.Activator.getContext(Activator.java:65)
+	at org.eclipse.equinox.internal.p2.repository.Activator.getParserFactory(Activator.java:75)
+	at org.eclipse.equinox.internal.p2.persistence.XMLParser.<init>(XMLParser.java:55)
+	at org.eclipse.equinox.internal.p2.metadata.repository.io.MetadataParser.<init>(MetadataParser.java:41)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryIO$Parser.<init>(MetadataRepositoryIO.java:193)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryIO.read(MetadataRepositoryIO.java:64)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:108)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:791)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:689)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:791)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:689)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:791)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:689)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:791)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:689)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SESSION 2025-02-05 22:56:41.957 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-05 22:56:59.575
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-05 22:56:59.585
+!MESSAGE Log4j2 initialized with config file /home/vdev/Documents/MyPrograms/mcu_projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-05 22:57:10.760
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-02-05 22:58:36.582
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+com.teamdev.jxbrowser.navigation.TimeoutException: Failed to complete the navigation within 45 seconds.
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadAndWait(NavigationImpl.java:232)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:104)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:91)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:83)
+	at com.teamdev.jxbrowser.browser.internal.BrowserImpl.initializeMainFrame(BrowserImpl.java:401)
+	at com.teamdev.jxbrowser.profile.internal.ProfileImpl.newBrowser(ProfileImpl.java:150)
+	at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:173)
+	at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:759)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:488)
+	at com.st.microxplorer.plugins.userauth.UserAuth.checkInfile(UserAuth.java:251)
+	at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:169)
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2025-02-05 22:58:36.582
+!MESSAGE Unable to execute early startup code for the org.eclipse.ui.IStartup extension contributed by the 'com.st.stm32cube.ide.mcu.ide' plug-in.
+!STACK 0
+com.teamdev.jxbrowser.navigation.TimeoutException: Failed to complete the navigation within 45 seconds.
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadAndWait(NavigationImpl.java:232)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:104)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:91)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:83)
+	at com.teamdev.jxbrowser.browser.internal.BrowserImpl.initializeMainFrame(BrowserImpl.java:401)
+	at com.teamdev.jxbrowser.profile.internal.ProfileImpl.newBrowser(ProfileImpl.java:150)
+	at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:173)
+	at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:759)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:488)
+	at com.st.microxplorer.plugins.userauth.UserAuth.checkInfile(UserAuth.java:251)
+	at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:169)
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
