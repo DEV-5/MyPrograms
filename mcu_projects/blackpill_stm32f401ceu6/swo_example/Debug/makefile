@@ -59,8 +59,8 @@ all: main-build
 main-build: swo_example.elf secondary-outputs
 
 # Tool invocations
-swo_example.elf swo_example.map: $(OBJS) $(USER_OBJS) /home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/swo_example/STM32F401CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "swo_example.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/swo_example/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="swo_example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+swo_example.elf swo_example.map: $(OBJS) $(USER_OBJS) /home/vdev/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/swo_example/STM32F401CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "swo_example.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/vdev/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/swo_example/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="swo_example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
