@@ -1,4 +1,4 @@
-17:14:45 **** Build of configuration Debug for project StackOperations ****
+09:18:26 **** Build of configuration Debug for project InterruptProrityF402 ****
 make -j8 all 
 arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
 arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
@@ -17,112 +17,344 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
 arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
-arm-none-eabi-gcc -o "StackOperations.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/StackOperations/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StackOperations.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: StackOperations.elf
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
  
-arm-none-eabi-size  StackOperations.elf 
-arm-none-eabi-objdump -h -S StackOperations.elf  > "StackOperations.list"
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
    text	   data	    bss	    dec	    hex	filename
-   5280	     92	   1900	   7272	   1c68	StackOperations.elf
+   3704	    104	   1904	   5712	   1650	InterruptProrityF402.elf
 Finished building: default.size.stdout
  
-Finished building: StackOperations.list
+Finished building: InterruptProrityF402.list
  
-17:16:03 **** Incremental Build of configuration Debug for project StackOperations ****
+09:19:18 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-size  InterruptProrityF402.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3704	    104	   1904	   5712	   1650	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+09:20:16 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-size  InterruptProrityF402.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3704	    104	   1904	   5712	   1650	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+09:21:55 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-size  InterruptProrityF402.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3704	    104	   1904	   5712	   1650	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+09:23:49 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "StackOperations.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/StackOperations/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StackOperations.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: StackOperations.elf
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
  
-arm-none-eabi-size  StackOperations.elf 
-arm-none-eabi-objdump -h -S StackOperations.elf  > "StackOperations.list"
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
    text	   data	    bss	    dec	    hex	filename
-   5280	     92	   1900	   7272	   1c68	StackOperations.elf
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
 Finished building: default.size.stdout
  
-Finished building: StackOperations.list
+Finished building: InterruptProrityF402.list
  
-17:22:44 **** Incremental Build of configuration Debug for project StackOperations ****
+09:23:53 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
 make -j8 all 
-arm-none-eabi-size  StackOperations.elf 
+arm-none-eabi-size  InterruptProrityF402.elf 
    text	   data	    bss	    dec	    hex	filename
-   5280	     92	   1900	   7272	   1c68	StackOperations.elf
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
 Finished building: default.size.stdout
  
-17:23:59 **** Incremental Build of configuration Debug for project StackOperations ****
-make -j8 all 
-arm-none-eabi-size  StackOperations.elf 
-   text	   data	    bss	    dec	    hex	filename
-   5280	     92	   1900	   7272	   1c68	StackOperations.elf
-Finished building: default.size.stdout
- 
-17:25:39 **** Incremental Build of configuration Debug for project StackOperations ****
+09:26:43 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "StackOperations.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/StackOperations/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StackOperations.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: StackOperations.elf
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
  
-arm-none-eabi-size  StackOperations.elf 
-arm-none-eabi-objdump -h -S StackOperations.elf  > "StackOperations.list"
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
    text	   data	    bss	    dec	    hex	filename
-   5280	     92	   1900	   7272	   1c68	StackOperations.elf
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
 Finished building: default.size.stdout
  
-Finished building: StackOperations.list
+Finished building: InterruptProrityF402.list
  
-17:26:29 **** Incremental Build of configuration Debug for project StackOperations ****
+09:28:11 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "StackOperations.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/StackOperations/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StackOperations.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: StackOperations.elf
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
  
-arm-none-eabi-size  StackOperations.elf 
-arm-none-eabi-objdump -h -S StackOperations.elf  > "StackOperations.list"
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
    text	   data	    bss	    dec	    hex	filename
-   5280	     92	   1900	   7272	   1c68	StackOperations.elf
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
 Finished building: default.size.stdout
  
-Finished building: StackOperations.list
+Finished building: InterruptProrityF402.list
  
-17:26:54 **** Incremental Build of configuration Debug for project StackOperations ****
+09:29:46 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "StackOperations.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/StackOperations/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StackOperations.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: StackOperations.elf
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
  
-arm-none-eabi-size  StackOperations.elf 
-arm-none-eabi-objdump -h -S StackOperations.elf  > "StackOperations.list"
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
    text	   data	    bss	    dec	    hex	filename
-   5280	     92	   1900	   7272	   1c68	StackOperations.elf
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
 Finished building: default.size.stdout
  
-Finished building: StackOperations.list
+Finished building: InterruptProrityF402.list
  
-17:31:27 **** Incremental Build of configuration Debug for project StackOperations ****
+10:00:23 **** Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-size  InterruptProrityF402.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+10:06:19 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-size  InterruptProrityF402.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+10:06:59 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "StackOperations.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/StackOperations/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StackOperations.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: StackOperations.elf
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
  
-arm-none-eabi-size  StackOperations.elf 
-arm-none-eabi-objdump -h -S StackOperations.elf  > "StackOperations.list"
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
    text	   data	    bss	    dec	    hex	filename
-   5280	     92	   1900	   7272	   1c68	StackOperations.elf
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
 Finished building: default.size.stdout
  
-Finished building: StackOperations.list
+Finished building: InterruptProrityF402.list
  
-17:31:48 **** Incremental Build of configuration Debug for project StackOperations ****
+10:14:16 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
 make -j8 all 
-arm-none-eabi-size  StackOperations.elf 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
    text	   data	    bss	    dec	    hex	filename
-   5280	     92	   1900	   7272	   1c68	StackOperations.elf
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
 Finished building: default.size.stdout
  
-17:32:14 **** Incremental Build of configuration Debug for project StackOperations ****
+Finished building: InterruptProrityF402.list
+ 
+10:15:00 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
 make -j8 all 
-arm-none-eabi-size  StackOperations.elf 
+arm-none-eabi-size  InterruptProrityF402.elf 
    text	   data	    bss	    dec	    hex	filename
-   5280	     92	   1900	   7272	   1c68	StackOperations.elf
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
 Finished building: default.size.stdout
+ 
+10:17:37 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:20:20 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:27:06 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5420	    104	   1904	   7428	   1d04	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:28:35 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:59:37: warning: left shift count >= width of type [-Wshift-count-overflow]
+   59 |         *pNVIC_ISER_BASE_ADDR |= (1 << IRQNO_I2C1);
+      |                                     ^~
+../Core/Src/main.c: In function 'TIM2_IRQHandler':
+../Core/Src/main.c:67:37: warning: left shift count >= width of type [-Wshift-count-overflow]
+   67 |         *pNVIC_ISPR_BASE_ADDR |= (1 << IRQNO_I2C1);
+      |                                     ^~
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5412	    104	   1904	   7420	   1cfc	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:30:52 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5464	    104	   1904	   7472	   1d30	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:33:11 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5480	    104	   1904	   7488	   1d40	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:34:23 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5448	    104	   1904	   7456	   1d20	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:34:51 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5448	    104	   1904	   7456	   1d20	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:34:56 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-size  InterruptProrityF402.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5448	    104	   1904	   7456	   1d20	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+10:36:10 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5480	    104	   1904	   7488	   1d40	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:38:47 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5480	    104	   1904	   7488	   1d40	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:49:21 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5480	    104	   1904	   7488	   1d40	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:50:08 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5480	    104	   1904	   7488	   1d40	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
+ 
+10:52:52 **** Incremental Build of configuration Debug for project InterruptProrityF402 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "InterruptProrityF402.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/InterruptProrityF402/STM32F401CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InterruptProrityF402.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InterruptProrityF402.elf
+ 
+arm-none-eabi-size  InterruptProrityF402.elf 
+arm-none-eabi-objdump -h -S InterruptProrityF402.elf  > "InterruptProrityF402.list"
+   text	   data	    bss	    dec	    hex	filename
+   5464	    104	   1904	   7472	   1d30	InterruptProrityF402.elf
+Finished building: default.size.stdout
+ 
+Finished building: InterruptProrityF402.list
  

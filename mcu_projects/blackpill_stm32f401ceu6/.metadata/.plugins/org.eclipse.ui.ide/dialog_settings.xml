@@ -9,6 +9,13 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/Tbit"/>
+			<item value="/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/swo_example"/>
+			<item value="/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/OperationsModesF401"/>
+			<item value="/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/OperationsModesAccessLevelF401"/>
+			<item value="/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/Inline_assembly"/>
+			<item value="/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/BitBanding"/>
+			<item value="/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/StackOperations"/>
 			<item value="/home/vdev/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/swo_example"/>
 		</list>
 	</section>
