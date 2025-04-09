@@ -18,5 +18,12 @@
 			<item value="/home/vdev/Documents/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/StackOperations"/>
 			<item value="/home/vdev/MyPrograms/mcu_projects/blackpill_stm32f401ceu6/swo_example"/>
 		</list>
+		<section name="SmartImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="478"/>
+			<item key="DIALOG_Y_ORIGIN" value="60"/>
+			<item key="DIALOG_WIDTH" value="904"/>
+			<item key="DIALOG_HEIGHT" value="691"/>
+			<item key="DIALOG_FONT_NAME" value="1|Ubuntu Sans|11.0|0|GTK|1|"/>
+		</section>
 	</section>
 </section>
