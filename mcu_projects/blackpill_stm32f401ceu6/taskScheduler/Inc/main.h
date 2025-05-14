@@ -1,0 +1,30 @@
+/* Macro definitions */
+#define MAX_TASKS			4
+
+/* Stack memory calculations */
+#define SIZE_TASK_STACK		1024U
+#define SIZE_SCHED_STACK	1024U
+
+#define SRAM_START			0x20000000U
+#define SRAM_SIZE			((96) * (1024))
+#define SRAM_END			((SRAM_START) + (SRAM_SIZE))
+
+#define T1_STACK_START		SRAM_END
+#define T2_STACK_START 		((T1_STACK_START) - SIZE_TASK_STACK)
+#define T3_STACK_START 		((T2_STACK_START) - SIZE_TASK_STACK)
+#define T4_STACK_START 		((T3_STACK_START) - SIZE_TASK_STACK)
+#define SCHED_STACK_START 	((T4_STACK_START) - SIZE_TASK_STACK)
+
+#define TICK_HZ				1000U
+#define HSI_CLK				16000000U
+#define SYSTICK_CLK			HSI_CLK
+
+#define SYST_CSR			0xE000E010
+#define SYST_RVR			0xE000E014
+
+#define SYST_CSR_ENABLE_BIT		(1<<0)
+#define SYST_CSR_TICKINT_BIT	(1<<1)
+#define SYST_CSR_CLRSRC_BIT		(1<<2)
+
+#define DUMMY_XPSR			0x01000000	/* xpsr */
+#define EXC_RETURN_THREAD_PSP_NO_FPU	0xFFFFFFFD

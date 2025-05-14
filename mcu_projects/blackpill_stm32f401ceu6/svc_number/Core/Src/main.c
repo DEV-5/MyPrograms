@@ -29,8 +29,12 @@ int main(void)
 {
 	//1.
 
-	__asm volatile("SVC #8");
+    __asm volatile("SVC #8");
 
+//	register uint32_t data __asm("r0"); // request to GCC to store variable in R0 (not recommended)
+    uint32_t data;
+    __asm volatile ("MOV %0, r0" : "=r"(data) ::);
+    printf("data returned by %u\r\n", data);
 
 	//4.
 
@@ -54,7 +58,9 @@ void SVC_Handler_c(uint32_t *pBaseStackFrame)
 	uint8_t svc_num = *svc_addr;
 //	printf("Exception : SVC_Handler\n");
 	printf("SVC number is %d\n", svc_num);
-	printf("Exception : SVC_Handler2\n");
+	svc_num += 4;
+	pBaseStackFrame[0] = svc_num;
+//	printf("Exception : SVC_Handler2\n");
 
 //	printf("pBaseStackFrame = %p\n",pBaseStackFrame);
 //	printf("Value of R0 = %lx\n", pBaseStackFrame[0]);
@@ -66,6 +72,6 @@ void SVC_Handler_c(uint32_t *pBaseStackFrame)
 //	printf("Value of PC = %lx\n", pBaseStackFrame[6]);
 //	printf("Value of XPSR = %lx\n", pBaseStackFrame[7]);
 //	printf("SVC number is %x", *(((uint8_t *) pBaseStackFrame[6] - 2)));
-	while(1);
+//	while(1);
 }
 
