@@ -39,6 +39,7 @@ __attribute__ ((naked)) void switch_sp_to_psp(void);
 uint32_t get_psp_value(void);
 void save_psp_value (uint32_t current_psp_value);
 void update_next_task(void);
+uint32_t sum(uint32_t a, uint32_t b, uint32_t c, uint32_t d, uint32_t e, uint32_t f);
 
 
 /* Global variables */
@@ -48,6 +49,8 @@ uint8_t	current_task = 0; //Task 1 is running
 
 int main(void)
 {
+
+	uint32_t res = sum(12, 13, 14, 15, 16, 17);
 	enable_processor_faults();
 	init_scheduler_stack(SCHED_STACK_START);
 	init_task_stack();
@@ -223,6 +226,10 @@ void update_next_task(void)
 	current_task %= MAX_TASKS;
 }
 
+uint32_t sum(uint32_t a, uint32_t b, uint32_t c, uint32_t d, uint32_t e, uint32_t f)
+{
+	return (a + b + c + d + e + f);
+}
 __attribute__ ((naked)) void switch_sp_to_psp(void)
 {
 	// Initialize the PSP with task1 stack start address
@@ -244,6 +251,8 @@ __attribute__ ((naked)) void SysTick_Handler(void)
 	__asm volatile ("MRS R0, PSP");
 	/* 2) Using that PSP value store SF2(R4 to R11) */
 	__asm volatile ("STMDB R0!, {R4-R11}");
+	/* save LR before function call will change the LR  */
+	__asm volatile ("PUSH {LR}");
 	/* 3) Save Current value of PSP */
 	__asm volatile ("BL save_psp_value");
 
@@ -257,6 +266,8 @@ __attribute__ ((naked)) void SysTick_Handler(void)
 	__asm volatile ("LDMIA R0!, {R4-R11}");
 	/* 4) Update PSP and Exit */
 	__asm volatile ("MSR PSP, R0"); //initlalize PSP
+
+	__asm volatile ("POP {LR}");
 	__asm volatile ("BX LR");
 }
 
