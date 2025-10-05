@@ -1,0 +1,17 @@
+23:49:05 **** Incremental Build of configuration Debug for project FreeRTOS_HelloWorld_SystemView ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F723xx -c -I../Core/Inc -I"/home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_SystemView/ThirdParty/SEGGER/Config" -I"/home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_SystemView/ThirdParty/SEGGER/OS" -I"/home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_SystemView/ThirdParty/SEGGER/SEGGER" -I"/home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_SystemView/ThirdParty/FreeRTOS/include" -I"/home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_SystemView/ThirdParty/FreeRTOS" -I"/home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_SystemView/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -Wconversion -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FreeRTOS_HelloWorld_SystemView.elf" @"objects.list"   -mcpu=cortex-m7 -T"/home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_SystemView/STM32F723IEKX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FreeRTOS_HelloWorld_SystemView.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FreeRTOS_HelloWorld_SystemView.elf
+ 
+arm-none-eabi-size  FreeRTOS_HelloWorld_SystemView.elf 
+arm-none-eabi-objdump -h -S FreeRTOS_HelloWorld_SystemView.elf  > "FreeRTOS_HelloWorld_SystemView.list"
+   text	   data	    bss	    dec	    hex	filename
+  31668	    108	  84956	 116732	  1c7fc	FreeRTOS_HelloWorld_SystemView.elf
+Finished building: default.size.stdout
+ 
+Finished building: FreeRTOS_HelloWorld_SystemView.list
+ 
+
+23:49:06 Build Finished. 0 errors, 0 warnings. (took 1s.147ms)
+

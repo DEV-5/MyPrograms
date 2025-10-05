@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FreeRTOS_HelloWorld_TaskYield/FreeRTOS_HelloWorld.ioc&apos; to &apos;FreeRTOS_HelloWorld_TaskYield.ioc&apos;" description="Rename resource &apos;FreeRTOS_HelloWorld.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="FreeRTOS_HelloWorld.ioc" name="FreeRTOS_HelloWorld_TaskYield.ioc" stamp="1759003070136" updateReferences="true"/>
+</session>

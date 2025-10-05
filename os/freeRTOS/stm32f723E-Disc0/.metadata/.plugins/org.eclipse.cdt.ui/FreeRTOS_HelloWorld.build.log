@@ -1,0 +1,10 @@
+01:14:03 **** Incremental Build of configuration Debug for project FreeRTOS_HelloWorld ****
+make -j8 all 
+arm-none-eabi-size  FreeRTOS_HelloWorld.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19640	    108	  64868	  84616	  14a88	FreeRTOS_HelloWorld.elf
+Finished building: default.size.stdout
+ 
+
+01:14:03 Build Finished. 0 errors, 0 warnings. (took 281ms)
+

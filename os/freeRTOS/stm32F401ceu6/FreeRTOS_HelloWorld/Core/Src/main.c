@@ -49,6 +49,7 @@
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
 static void task1handler(void *parameters);
 static void task2handler(void *parameters);
@@ -65,12 +66,13 @@ static void task2handler(void *parameters);
   */
 int main(void)
 {
-  /* USER CODE BEGIN 1 */
-	TaskHandle_t * const task1Handle;
-	TaskHandle_t * const task2Handle;
 
-	const configSTACK_DEPTH_TYPE StackDepth_Task1 = 200;
-	const configSTACK_DEPTH_TYPE StackDepth_Task2 = 200;
+  /* USER CODE BEGIN 1 */
+	TaskHandle_t task1Handle;
+	TaskHandle_t task2Handle;
+
+//	const configSTACK_DEPTH_TYPE StackDepth_Task1 = 200;
+//	const configSTACK_DEPTH_TYPE StackDepth_Task2 = 200;
 	BaseType_t status;
 
   /* USER CODE END 1 */
@@ -92,25 +94,30 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
+  MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
 
-status =  xTaskCreate(task1handler,
-                        "TASK-1",
-						StackDepth_Task1,
-                        "Hello World from Task-1",
-                        2, /* priority 2 */
-						&task1Handle);
-configASSERT(status == pdPASS);
+	printf("HEllo World\n");
 
-status =  xTaskCreate(task2handler,
-                        "TASK-2",
-						StackDepth_Task2,
-                        "Hello World from Task-2",
-                        1, /* priority 2 */
-						&task2Handle);
-configASSERT(status == pdPASS);
+	status =  xTaskCreate(task1handler,
+							"TASK-1",
+							200,
+							"Hello World from Task-1",
+							2, /* priority 2 */
+							&task1Handle);
+	configASSERT(status == pdPASS);
+
+	status =  xTaskCreate(task2handler,
+							"TASK-2",
+							200,
+							"Hello World from Task-2",
+							2, /* priority 2 */
+							&task2Handle);
+	configASSERT(status == pdPASS);
+
+	vTaskStartScheduler();
+
   /* USER CODE END 2 */
-
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -161,6 +168,23 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+}
+
+/**
+  * @brief GPIO Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_GPIO_Init(void)
+{
+/* USER CODE BEGIN MX_GPIO_Init_1 */
+/* USER CODE END MX_GPIO_Init_1 */
+
+  /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+
+/* USER CODE BEGIN MX_GPIO_Init_2 */
+/* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* USER CODE BEGIN 4 */

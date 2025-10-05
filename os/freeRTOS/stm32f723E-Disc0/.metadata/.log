@@ -1,0 +1,2188 @@
+!SESSION 2025-09-27 22:24:37.070 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-27 22:24:42.326
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-27 22:24:42.328
+!MESSAGE Log4j2 initialized with config file /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-27 22:24:45.743
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-09-27 22:25:03.011
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+com.teamdev.jxbrowser.navigation.TimeoutException: Failed to complete the navigation within 10 seconds.
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadAndWait(NavigationImpl.java:232)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:104)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:91)
+	at com.st.microxplorer.plugins.userauth.WebApp.startREACTclient(WebApp.java:595)
+	at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:226)
+	at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:773)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:488)
+	at com.st.microxplorer.plugins.userauth.UserAuth.checkInfile(UserAuth.java:251)
+	at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:169)
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2025-09-27 22:25:03.012
+!MESSAGE Unable to execute early startup code for the org.eclipse.ui.IStartup extension contributed by the 'com.st.stm32cube.ide.mcu.ide' plug-in.
+!STACK 0
+com.teamdev.jxbrowser.navigation.TimeoutException: Failed to complete the navigation within 10 seconds.
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadAndWait(NavigationImpl.java:232)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:104)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:91)
+	at com.st.microxplorer.plugins.userauth.WebApp.startREACTclient(WebApp.java:595)
+	at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:226)
+	at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:773)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:488)
+	at com.st.microxplorer.plugins.userauth.UserAuth.checkInfile(UserAuth.java:251)
+	at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:169)
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-27 22:45:51.936
+!MESSAGE Indexed 'FreeRTOS_HelloWorld' (50 sources, 111 headers) in 7.52 sec: 11,835 declarations; 94,422 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0019%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-27 22:51:31.242
+!MESSAGE Indexed 'FreeRTOS_HelloWorld' (50 sources, 111 headers) in 7.37 sec: 11,835 declarations; 94,422 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0019%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-09-27 23:12:20.710
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-09-27 23:13:11.892
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-09-27 23:13:34.382
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-09-27 23:16:20.223
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-27 23:19:27.525
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-27 23:20:15.435
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-27 23:20:29.363
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 00:32:30.911
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 00:34:03.192
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 00:34:36.013
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 00:36:47.359
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 00:37:13.060
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 00:37:33.976
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 00:39:38.396
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.ui 4 4 2025-09-28 00:48:16.071
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: com.st.stm32cube.ide.mcu.debug.stlinkfwutil.StLinkFwUtil$$Lambda/0x0000000101cb6f90@43f5f722, thread Worker-70: Launching FreeRTOS_HelloWorld will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-09-28 00:48:16.071
+!MESSAGE Worker-70: Launching FreeRTOS_HelloWorld thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-70: Launching FreeRTOS_HelloWorld
+	at java.management@21.0.3/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.3/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:482)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:208)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:174)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5960)
+	at com.st.stm32cube.ide.common.utils.ThreadHelper.runInUiThreadSync(ThreadHelper.java:36)
+	at com.st.stm32cube.ide.mcu.debug.stlinkfwutil.StLinkFwUtil.lookupStLink(StLinkFwUtil.java:306)
+	at com.st.stm32cube.ide.mcu.debug.stlinkfwutil.StLinkFwUtil.validate(StLinkFwUtil.java:111)
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.preLaunchCheck(StLinkDebugHardware.java:288)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:167)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:769)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-09-28 00:48:16.071
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at org.eclipse.swt.internal.gtk.OS.Call(Native Method)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:5641)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:824)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:608)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:404)
+	at org.eclipse.jface.dialogs.MessageDialog.openInformation(MessageDialog.java:501)
+	at com.st.stm32cube.ide.mcu.debug.stlinkfwutil.StLinkFwUtil.lambda$6(StLinkFwUtil.java:307)
+	at com.st.stm32cube.ide.mcu.debug.stlinkfwutil.StLinkFwUtil$$Lambda/0x0000000101cb6f90.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:166)
+	at org.eclipse.ui.internal.UILockListener.aboutToWait(UILockListener.java:134)
+	at org.eclipse.core.internal.jobs.LockManager.aboutToWait(LockManager.java:105)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:994)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.disconnectTerminal(VT100TerminalControl.java:469)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.disposeTerminal(VT100TerminalControl.java:415)
+	at org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbFullCliConsolePage.dispose(GdbFullCliConsolePage.java:125)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView.doDestroyPage(DebuggerConsoleView.java:304)
+	at org.eclipse.ui.part.PageBookView.removePage(PageBookView.java:806)
+	at org.eclipse.ui.part.PageBookView.partClosed(PageBookView.java:740)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView.lambda$1(DebuggerConsoleView.java:375)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView$$Lambda/0x0000000101d1f6f8.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5040)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4520)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$$Lambda/0x00000001002ad378.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base@21.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@21.0.3/java.lang.invoke.LambdaForm$MH/0x00000001000c6800.invoke(LambdaForm$MH)
+	at java.base@21.0.3/java.lang.invoke.LambdaForm$MH/0x00000001000c6c00.invokeExact_MT(LambdaForm$MH)
+	at java.base@21.0.3/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:155)
+	at java.base@21.0.3/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.3/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.ui 4 4 2025-09-28 00:48:17.319
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: com.st.stm32cube.ide.mcu.debug.stlinkfwutil.StLinkFwUtil$$Lambda/0x0000000101cb6f90@43f5f722, thread Worker-70: Launching FreeRTOS_HelloWorld will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-09-28 00:48:17.319
+!MESSAGE Worker-70: Launching FreeRTOS_HelloWorld thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-70: Launching FreeRTOS_HelloWorld
+	at java.management@21.0.3/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.3/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:482)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:208)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:174)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5960)
+	at com.st.stm32cube.ide.common.utils.ThreadHelper.runInUiThreadSync(ThreadHelper.java:36)
+	at com.st.stm32cube.ide.mcu.debug.stlinkfwutil.StLinkFwUtil.lookupStLink(StLinkFwUtil.java:306)
+	at com.st.stm32cube.ide.mcu.debug.stlinkfwutil.StLinkFwUtil.validate(StLinkFwUtil.java:111)
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.preLaunchCheck(StLinkDebugHardware.java:288)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:167)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:769)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-09-28 00:48:17.319
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at org.eclipse.swt.internal.gtk.OS.Call(Native Method)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:5641)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:824)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:608)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:404)
+	at org.eclipse.jface.dialogs.MessageDialog.openInformation(MessageDialog.java:501)
+	at com.st.stm32cube.ide.mcu.debug.stlinkfwutil.StLinkFwUtil.lambda$6(StLinkFwUtil.java:307)
+	at com.st.stm32cube.ide.mcu.debug.stlinkfwutil.StLinkFwUtil$$Lambda/0x0000000101cb6f90.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:166)
+	at org.eclipse.ui.internal.UILockListener.aboutToWait(UILockListener.java:134)
+	at org.eclipse.core.internal.jobs.LockManager.aboutToWait(LockManager.java:105)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:994)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.disconnectTerminal(VT100TerminalControl.java:469)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.disposeTerminal(VT100TerminalControl.java:415)
+	at org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbFullCliConsolePage.dispose(GdbFullCliConsolePage.java:125)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView.doDestroyPage(DebuggerConsoleView.java:304)
+	at org.eclipse.ui.part.PageBookView.removePage(PageBookView.java:806)
+	at org.eclipse.ui.part.PageBookView.partClosed(PageBookView.java:740)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView.lambda$1(DebuggerConsoleView.java:375)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView$$Lambda/0x0000000101d1f6f8.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5040)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4520)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$$Lambda/0x00000001002ad378.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base@21.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@21.0.3/java.lang.invoke.LambdaForm$MH/0x00000001000c6800.invoke(LambdaForm$MH)
+	at java.base@21.0.3/java.lang.invoke.LambdaForm$MH/0x00000001000c6c00.invokeExact_MT(LambdaForm$MH)
+	at java.base@21.0.3/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:155)
+	at java.base@21.0.3/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.3/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 00:49:03.079
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-09-28 00:51:30.255
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld/Debug/FreeRTOS_HelloWorld.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-09-28 00:51:30.256
+!MESSAGE /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld/Debug/FreeRTOS_HelloWorld.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld/Debug/FreeRTOS_HelloWorld.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 00:53:30.360
+!MESSAGE Indexed 'FreeRTOS_HelloWorld' (37 sources, 103 headers) in 3.93 sec: 9,130 declarations; 62,150 references; 1 unresolved inclusions; 2 syntax errors; 1,235 unresolved names (1.7%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-09-28 00:53:36.586
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld/Debug/FreeRTOS_HelloWorld.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-09-28 00:53:36.586
+!MESSAGE /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld/Debug/FreeRTOS_HelloWorld.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld/Debug/FreeRTOS_HelloWorld.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 00:56:39.311
+!MESSAGE Indexed 'FreeRTOS_HelloWorld' (37 sources, 104 headers) in 2.55 sec: 9,154 declarations; 63,879 references; 0 unresolved inclusions; 1 syntax errors; 5 unresolved names (0.0068%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 00:56:59.812
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 00:57:34.235
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 00:59:40.667
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 01:01:04.482
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 108000000; div: 54
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 01:04:53.070
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 108000000; div: 54
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 01:05:23.409
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 108000000; div: 54
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 01:05:41.617
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 108000000; div: 54
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 01:05:54.926
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 01:07:12.465
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 01:07:28.315
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 01:13:38.002
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 01:14:07.260
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 01:14:25.917
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 01:17:22.678
+!MESSAGE Indexed 'FreeRTOS_HelloWorld_TaskYield' (37 sources, 144 headers) in 5.05 sec: 14,723 declarations; 82,216 references; 3 unresolved inclusions; 181 syntax errors; 158 unresolved names (0.16%)
+
+!ENTRY org.eclipse.ui 4 0 2025-09-28 01:17:24.738
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.setVisible(boolean)" because the return value of "org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.getShell()" is null
+	at org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.updatePlacementAndVisibility(FindReplaceOverlay.java:844)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5040)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4520)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.core.resources 4 4 2025-09-28 01:17:34.603
+!MESSAGE Exception occurred while saving project preferences: /FreeRTOS_HelloWorld/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/FreeRTOS_HelloWorld)[372]: java.lang.Exception: Project 'FreeRTOS_HelloWorld' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$2(ProjectPreferences.java:730)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:755)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:436)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:459)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1055)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1170)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:463)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1199)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:262)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1617)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2025-09-28 01:17:34.607
+!MESSAGE Project 'FreeRTOS_HelloWorld' is not open.
+!STACK 0
+java.lang.Exception: Project 'FreeRTOS_HelloWorld' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$2(ProjectPreferences.java:730)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:755)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:436)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:459)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1055)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1170)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:463)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1199)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:262)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1617)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-09-28 01:21:54.298
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_TaskYield/Debug/FreeRTOS_HelloWorld.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-09-28 01:21:54.298
+!MESSAGE /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_TaskYield/Debug/FreeRTOS_HelloWorld.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_TaskYield/Debug/FreeRTOS_HelloWorld.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-09-28 01:22:18.373
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_TaskYield/Debug/FreeRTOS_HelloWorld.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-09-28 01:22:18.374
+!MESSAGE /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_TaskYield/Debug/FreeRTOS_HelloWorld.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/FreeRTOS_HelloWorld_TaskYield/Debug/FreeRTOS_HelloWorld.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2025-09-28 01:26:49.281
+!MESSAGE Unable to create part
+!STACK 1
+org.eclipse.ui.PartInitException: Invalid Input: Must be project's active .ioc file.
+
+Project's 'FreeRTOS_HelloWorld_TaskYield' active one is 'FreeRTOS_HelloWorld_TaskYield.ioc' file
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.init(CubeMxEditor.java:855)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5960)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:654)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:618)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:796)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1271)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3228)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$11(WorkbenchPage.java:3118)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3116)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3086)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3077)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:546)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:506)
+	at org.eclipse.ui.actions.OpenFileAction.openFile(OpenFileAction.java:104)
+	at org.eclipse.ui.actions.OpenSystemEditorAction.run(OpenSystemEditorAction.java:96)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:184)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:799)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:796)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1110)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:451)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:295)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:330)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1617)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SUBENTRY 1 org.eclipse.ui 4 0 2025-09-28 01:26:49.282
+!MESSAGE Invalid Input: Must be project's active .ioc file.
+
+Project's 'FreeRTOS_HelloWorld_TaskYield' active one is 'FreeRTOS_HelloWorld_TaskYield.ioc' file
+
+!ENTRY org.eclipse.ui 4 4 2025-09-28 01:26:59.540
+!MESSAGE Unable to create part
+!STACK 1
+org.eclipse.ui.PartInitException: Invalid Input: Must be project's active .ioc file.
+
+Project's 'FreeRTOS_HelloWorld_TaskYield' active one is 'FreeRTOS_HelloWorld_TaskYield.ioc' file
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.init(CubeMxEditor.java:855)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5960)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:654)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:618)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:796)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1271)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3228)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$11(WorkbenchPage.java:3118)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3116)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3086)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3077)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:546)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:506)
+	at org.eclipse.ui.actions.OpenFileAction.openFile(OpenFileAction.java:104)
+	at org.eclipse.ui.actions.OpenSystemEditorAction.run(OpenSystemEditorAction.java:96)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:184)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:799)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:796)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1110)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:451)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:295)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:330)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1617)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SUBENTRY 1 org.eclipse.ui 4 0 2025-09-28 01:26:59.540
+!MESSAGE Invalid Input: Must be project's active .ioc file.
+
+Project's 'FreeRTOS_HelloWorld_TaskYield' active one is 'FreeRTOS_HelloWorld_TaskYield.ioc' file
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 01:28:38.535
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 01:28:57.005
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 01:29:00.241
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 01:29:45.597
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 01:30:10.136
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 02:41:28.749
+!MESSAGE Indexed 'FreeRTOS_HelloWorld_TaskYield' (44 sources, 156 headers) in 6.57 sec: 16,623 declarations; 90,411 references; 3 unresolved inclusions; 181 syntax errors; 158 unresolved names (0.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 02:43:14.252
+!MESSAGE Indexed 'FreeRTOS_HelloWorld_TaskYield' (43 sources, 156 headers) in 4.05 sec: 16,598 declarations; 90,213 references; 3 unresolved inclusions; 181 syntax errors; 158 unresolved names (0.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 02:57:35.565
+!MESSAGE Indexed 'FreeRTOS_HelloWorld_TaskYield' (43 sources, 156 headers) in 4.02 sec: 16,598 declarations; 90,213 references; 3 unresolved inclusions; 181 syntax errors; 158 unresolved names (0.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 02:58:30.610
+!MESSAGE Indexed 'FreeRTOS_HelloWorld_TaskYield' (43 sources, 156 headers) in 3.16 sec: 16,598 declarations; 90,213 references; 3 unresolved inclusions; 181 syntax errors; 158 unresolved names (0.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 02:58:57.275
+!MESSAGE Indexed 'FreeRTOS_HelloWorld_TaskYield' (43 sources, 156 headers) in 3.52 sec: 16,598 declarations; 90,213 references; 3 unresolved inclusions; 181 syntax errors; 158 unresolved names (0.15%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-09-28 03:00:09.807
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 03:02:29.812
+!MESSAGE Indexed 'FreeRTOS_HelloWorld_TaskYield' (43 sources, 156 headers) in 4 sec: 16,598 declarations; 90,213 references; 3 unresolved inclusions; 181 syntax errors; 158 unresolved names (0.15%)
+
+!ENTRY org.eclipse.ui 4 0 2025-09-28 03:03:05.838
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.getDisplay()" because the return value of "org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.getShell()" is null
+	at org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.updatePlacementAndVisibility(FindReplaceOverlay.java:848)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5040)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4520)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 03:04:59.571
+!MESSAGE Indexed 'FreeRTOS_HelloWorld_SystemView' (43 sources, 175 headers) in 5 sec: 17,737 declarations; 92,032 references; 3 unresolved inclusions; 181 syntax errors; 155 unresolved names (0.14%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 03:07:40.133
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 03:08:08.399
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2025-09-28 03:08:09.657
+!MESSAGE Error in final launch sequence:
+
+Setup exceptions
+!STACK 1
+org.eclipse.core.runtime.CoreException: Setup exceptions
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2025-09-28 03:08:09.658
+!MESSAGE Setup exceptions
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 03:09:35.092
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.ui 4 4 2025-09-28 03:33:36.489
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: org.eclipse.debug.internal.ui.sourcelookup.Prompter$$Lambda/0x0000000101ba3320@478ce341, thread Worker-187: Launching FreeRTOS_HelloWorld will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-09-28 03:33:36.489
+!MESSAGE Worker-187: Launching FreeRTOS_HelloWorld thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-187: Launching FreeRTOS_HelloWorld
+	at java.management@21.0.3/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.3/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:482)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:208)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:174)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5960)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.handleStatus(Prompter.java:81)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:245)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:197)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.preLaunchCheck(GdbLaunchDelegate.java:371)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:211)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:769)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-09-28 03:33:36.490
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at org.eclipse.swt.internal.gtk.OS.Call(Native Method)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:5641)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:824)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.showSaveDialog(SaveScopeResourcesHandler.java:250)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:180)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.lambda$0(Prompter.java:73)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$$Lambda/0x0000000101ba3320.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:166)
+	at org.eclipse.ui.internal.UILockListener.aboutToWait(UILockListener.java:134)
+	at org.eclipse.core.internal.jobs.LockManager.aboutToWait(LockManager.java:105)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:994)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.disconnectTerminal(VT100TerminalControl.java:469)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.disposeTerminal(VT100TerminalControl.java:415)
+	at org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbFullCliConsolePage.dispose(GdbFullCliConsolePage.java:125)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView.doDestroyPage(DebuggerConsoleView.java:304)
+	at org.eclipse.ui.part.PageBookView.removePage(PageBookView.java:806)
+	at org.eclipse.ui.part.PageBookView.partClosed(PageBookView.java:740)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView.lambda$1(DebuggerConsoleView.java:375)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView$$Lambda/0x0000000101d1f6f8.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5040)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4520)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$$Lambda/0x00000001002ad378.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base@21.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@21.0.3/java.lang.invoke.LambdaForm$MH/0x00000001000c6800.invoke(LambdaForm$MH)
+	at java.base@21.0.3/java.lang.invoke.LambdaForm$MH/0x00000001000c6c00.invokeExact_MT(LambdaForm$MH)
+	at java.base@21.0.3/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:155)
+	at java.base@21.0.3/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.3/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.ui 4 4 2025-09-28 03:33:37.662
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: org.eclipse.debug.internal.ui.sourcelookup.Prompter$$Lambda/0x0000000101ba3320@478ce341, thread Worker-187: Launching FreeRTOS_HelloWorld will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-09-28 03:33:37.662
+!MESSAGE Worker-187: Launching FreeRTOS_HelloWorld thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-187: Launching FreeRTOS_HelloWorld
+	at java.management@21.0.3/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.3/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:482)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:208)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:174)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5960)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.handleStatus(Prompter.java:81)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:245)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:197)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.preLaunchCheck(GdbLaunchDelegate.java:371)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:211)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:769)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-09-28 03:33:37.662
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at org.eclipse.swt.internal.gtk.OS.Call(Native Method)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:5641)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:824)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.showSaveDialog(SaveScopeResourcesHandler.java:250)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:180)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.lambda$0(Prompter.java:73)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$$Lambda/0x0000000101ba3320.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:166)
+	at org.eclipse.ui.internal.UILockListener.aboutToWait(UILockListener.java:134)
+	at org.eclipse.core.internal.jobs.LockManager.aboutToWait(LockManager.java:105)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:994)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.disconnectTerminal(VT100TerminalControl.java:469)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.disposeTerminal(VT100TerminalControl.java:415)
+	at org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbFullCliConsolePage.dispose(GdbFullCliConsolePage.java:125)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView.doDestroyPage(DebuggerConsoleView.java:304)
+	at org.eclipse.ui.part.PageBookView.removePage(PageBookView.java:806)
+	at org.eclipse.ui.part.PageBookView.partClosed(PageBookView.java:740)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView.lambda$1(DebuggerConsoleView.java:375)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView$$Lambda/0x0000000101d1f6f8.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5040)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4520)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$$Lambda/0x00000001002ad378.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base@21.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@21.0.3/java.lang.invoke.LambdaForm$MH/0x00000001000c6800.invoke(LambdaForm$MH)
+	at java.base@21.0.3/java.lang.invoke.LambdaForm$MH/0x00000001000c6c00.invokeExact_MT(LambdaForm$MH)
+	at java.base@21.0.3/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:155)
+	at java.base@21.0.3/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.3/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.ui 4 4 2025-09-28 03:33:38.848
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: org.eclipse.debug.internal.ui.sourcelookup.Prompter$$Lambda/0x0000000101ba3320@478ce341, thread Worker-187: Launching FreeRTOS_HelloWorld will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-09-28 03:33:38.848
+!MESSAGE Worker-187: Launching FreeRTOS_HelloWorld thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-187: Launching FreeRTOS_HelloWorld
+	at java.management@21.0.3/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.3/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:482)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:208)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:174)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5960)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.handleStatus(Prompter.java:81)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:245)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:197)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.preLaunchCheck(GdbLaunchDelegate.java:371)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:211)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:769)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-09-28 03:33:38.848
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at org.eclipse.swt.internal.gtk.OS.Call(Native Method)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:5641)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:824)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.showSaveDialog(SaveScopeResourcesHandler.java:250)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:180)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.lambda$0(Prompter.java:73)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$$Lambda/0x0000000101ba3320.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:166)
+	at org.eclipse.ui.internal.UILockListener.aboutToWait(UILockListener.java:134)
+	at org.eclipse.core.internal.jobs.LockManager.aboutToWait(LockManager.java:105)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:994)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.disconnectTerminal(VT100TerminalControl.java:469)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.disposeTerminal(VT100TerminalControl.java:415)
+	at org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbFullCliConsolePage.dispose(GdbFullCliConsolePage.java:125)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView.doDestroyPage(DebuggerConsoleView.java:304)
+	at org.eclipse.ui.part.PageBookView.removePage(PageBookView.java:806)
+	at org.eclipse.ui.part.PageBookView.partClosed(PageBookView.java:740)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView.lambda$1(DebuggerConsoleView.java:375)
+	at org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView$$Lambda/0x0000000101d1f6f8.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5040)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4520)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$$Lambda/0x00000001002ad378.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base@21.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@21.0.3/java.lang.invoke.LambdaForm$MH/0x00000001000c6800.invoke(LambdaForm$MH)
+	at java.base@21.0.3/java.lang.invoke.LambdaForm$MH/0x00000001000c6c00.invokeExact_MT(LambdaForm$MH)
+	at java.base@21.0.3/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:155)
+	at java.base@21.0.3/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.3/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 03:33:48.965
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 23:22:52.913
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 23:23:43.718
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 23:48:04.611
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-28 23:49:10.490
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-28 23:49:41.331
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SESSION 2025-10-01 13:42:06.728 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-10-01 13:43:07.399
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2025-10-01 13:43:09.332
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-01 13:43:09.332
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2025-10-01 13:43:11.606
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2025-10-01 13:43:11.619
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-01 13:43:13.782
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-01 13:43:13.783
+!MESSAGE Log4j2 initialized with config file /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-01 13:43:28.505
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-10-01 13:44:42.470
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/AObuchow/Eclipse-Spectrum-Theme/updatesite/updatesite/content.xml.xz
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-10-01 13:44:42.796
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/AObuchow/Eclipse-Spectrum-Theme/updatesite/updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 13:48:34.371
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 13:48:34.593
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 13:48:34.593
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.593
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.593
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 13:48:34.594
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.594
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.594
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.594
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 13:48:34.594
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.594
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.594
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 13:48:34.594
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.594
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.594
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 13:48:34.594
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.594
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.594
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 13:48:34.703
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 13:48:34.703
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.703
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.703
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 13:48:34.704
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.704
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.704
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.704
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 13:48:34.704
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.704
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.704
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 13:48:34.704
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.704
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.704
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 13:48:34.704
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.704
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 13:48:34.704
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 13:48:34.777
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 13:48:34.778
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 13:48:34.780
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.ui 4 0 2025-10-01 13:48:34.782
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.p2.operations.ProfileChangeOperation.getResolutionResult()" because "this.operation" is null
+	at org.eclipse.equinox.internal.p2.ui.dialogs.ProvisioningOperationWizard.getNextPage(ProvisioningOperationWizard.java:168)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.WizardWithLicenses.getNextPage(WizardWithLicenses.java:78)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.getStartingPage(UpdateWizard.java:169)
+	at org.eclipse.jface.wizard.WizardDialog.showStartingPage(WizardDialog.java:1269)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:638)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.openUpdateWizard(ProvisioningUI.java:315)
+	at org.eclipse.equinox.internal.p2.ui.sdk.UpdateHandler$2.lambda$0(UpdateHandler.java:66)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5039)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SESSION 2025-10-01 15:03:20.938 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-01 15:04:18.769
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-01 15:04:18.770
+!MESSAGE Log4j2 initialized with config file /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-01 15:04:23.702
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-10-01 15:05:36.388
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/AObuchow/Eclipse-Spectrum-Theme/updatesite/updatesite/content.xml.xz
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-10-01 15:05:36.709
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/AObuchow/Eclipse-Spectrum-Theme/updatesite/updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 15:09:23.794
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 15:09:23.974
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 15:09:23.974
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 15:09:23.974
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 15:09:23.974
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 15:09:23.974
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 15:09:23.974
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:23.974
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 15:09:24.044
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 15:09:24.044
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 15:09:24.044
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 15:09:24.044
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 15:09:24.044
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 15:09:24.044
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 15:09:24.044
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 15:09:24.117
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 15:09:24.117
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 15:09:24.120
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.ui 4 0 2025-10-01 15:09:24.122
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.p2.operations.ProfileChangeOperation.getResolutionResult()" because "this.operation" is null
+	at org.eclipse.equinox.internal.p2.ui.dialogs.ProvisioningOperationWizard.getNextPage(ProvisioningOperationWizard.java:168)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.WizardWithLicenses.getNextPage(WizardWithLicenses.java:78)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.getStartingPage(UpdateWizard.java:169)
+	at org.eclipse.jface.wizard.WizardDialog.showStartingPage(WizardDialog.java:1269)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:638)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.openUpdateWizard(ProvisioningUI.java:315)
+	at org.eclipse.equinox.internal.p2.ui.sdk.UpdateHandler$2.lambda$0(UpdateHandler.java:66)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5039)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:01:52.143
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:01:52.233
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 16:01:52.233
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:01:52.233
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:01:52.233
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:01:52.233
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:01:52.233
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.233
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:01:52.256
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 16:01:52.256
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:01:52.256
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:01:52.256
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:01:52.256
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:01:52.256
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:01:52.256
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:01:52.292
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:01:52.293
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:01:52.294
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.ui 4 0 2025-10-01 16:01:52.297
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.p2.operations.ProfileChangeOperation.getResolutionResult()" because "this.operation" is null
+	at org.eclipse.equinox.internal.p2.ui.dialogs.ProvisioningOperationWizard.getNextPage(ProvisioningOperationWizard.java:168)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.WizardWithLicenses.getNextPage(WizardWithLicenses.java:78)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.getStartingPage(UpdateWizard.java:169)
+	at org.eclipse.jface.wizard.WizardDialog.showStartingPage(WizardDialog.java:1269)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:638)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.openUpdateWizard(ProvisioningUI.java:315)
+	at org.eclipse.equinox.internal.p2.ui.sdk.UpdateHandler$2.lambda$0(UpdateHandler.java:66)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5039)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:06:12.819
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:06:12.861
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 16:06:12.861
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.861
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.861
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:06:12.861
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.861
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.861
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.861
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:06:12.861
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.862
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.862
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:06:12.862
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.862
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.862
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:06:12.862
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.862
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.862
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:06:12.890
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 16:06:12.891
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:06:12.891
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:06:12.891
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:06:12.891
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:06:12.891
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:06:12.891
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:06:12.934
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:06:12.934
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:06:12.936
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.ui 4 0 2025-10-01 16:06:12.939
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.p2.operations.ProfileChangeOperation.getResolutionResult()" because "this.operation" is null
+	at org.eclipse.equinox.internal.p2.ui.dialogs.ProvisioningOperationWizard.getNextPage(ProvisioningOperationWizard.java:168)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.WizardWithLicenses.getNextPage(WizardWithLicenses.java:78)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.getStartingPage(UpdateWizard.java:169)
+	at org.eclipse.jface.wizard.WizardDialog.showStartingPage(WizardDialog.java:1269)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:638)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.openUpdateWizard(ProvisioningUI.java:315)
+	at org.eclipse.equinox.internal.p2.ui.sdk.UpdateHandler$2.lambda$0(UpdateHandler.java:66)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5039)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.SwtInputBlocker.open(SwtInputBlocker.java:55)
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.SwtInputBlocker.block(SwtInputBlocker.java:111)
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.SwtInputBlocker.block(SwtInputBlocker.java:84)
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtDialogListener$2.run(AwtDialogListener.java:91)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5039)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SESSION 2025-10-01 16:27:00.867 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-01 16:27:10.206
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-01 16:27:10.207
+!MESSAGE Log4j2 initialized with config file /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-01 16:27:20.586
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-10-01 16:28:33.922
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/AObuchow/Eclipse-Spectrum-Theme/updatesite/updatesite/content.xml.xz
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-10-01 16:28:34.247
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/AObuchow/Eclipse-Spectrum-Theme/updatesite/updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:34:15.795
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:34:15.865
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 16:34:15.865
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:34:15.865
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:34:15.865
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:34:15.865
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:34:15.865
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.865
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:34:15.947
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 16:34:15.948
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:34:15.948
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:34:15.948
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:34:15.948
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:34:15.948
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:34:15.948
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:34:16.026
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:34:16.027
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:34:16.030
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.ui 4 0 2025-10-01 16:34:16.033
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.p2.operations.ProfileChangeOperation.getResolutionResult()" because "this.operation" is null
+	at org.eclipse.equinox.internal.p2.ui.dialogs.ProvisioningOperationWizard.getNextPage(ProvisioningOperationWizard.java:168)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.WizardWithLicenses.getNextPage(WizardWithLicenses.java:78)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.getStartingPage(UpdateWizard.java:169)
+	at org.eclipse.jface.wizard.WizardDialog.showStartingPage(WizardDialog.java:1269)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:638)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.openUpdateWizard(ProvisioningUI.java:315)
+	at org.eclipse.equinox.internal.p2.ui.sdk.UpdateHandler$2.lambda$0(UpdateHandler.java:66)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5039)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SESSION 2025-10-01 16:40:55.415 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-01 16:41:09.614
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-01 16:41:09.614
+!MESSAGE Log4j2 initialized with config file /home/vdev/MyPrograms/os/freeRTOS/stm32f723E-Disc0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-01 16:41:19.540
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-10-01 16:42:30.224
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/AObuchow/Eclipse-Spectrum-Theme/updatesite/updatesite/content.xml.xz
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-10-01 16:42:30.551
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/AObuchow/Eclipse-Spectrum-Theme/updatesite/updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:50:54.391
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:50:54.508
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 16:50:54.508
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:50:54.508
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:50:54.508
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:50:54.508
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:50:54.508
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.508
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-10-01 16:50:54.541
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2025-10-01 16:50:54.541
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE Software being installed: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE Software currently installed: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:50:54.541
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2024.3.0.202409191846 (com.genuitec.eclipse.theming.core.feature.feature.jar 2024.3.0.202409191846)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.jar 2025.2.0.202509301431)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:50:54.541
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2024.4.0.202412101111 (com.genuitec.eclipse.theming.core.feature.feature.group 2024.4.0.202412101111)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2024.4.0.202412101111,2024.4.0.202412101111]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:50:54.541
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE From: DevStyle (includes Darkest Dark Theme) 2025.2.0.202509301431 (com.genuitec.eclipse.theming.core.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.jar [2025.2.0.202509301431,2025.2.0.202509301431]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2025-10-01 16:50:54.541
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE From: DevStyle with CodeTogether Bundle 2025.2.0.202509301431 (com.genuitec.eclipse.theming.feature.feature.group 2025.2.0.202509301431)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2025-10-01 16:50:54.541
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.genuitec.eclipse.theming.core.feature.feature.group [2025.2.0.202509301431,2025.2.0.202509301431]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:50:54.595
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:50:54.595
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2025-10-01 16:50:54.598
+!MESSAGE There were no installable units selected when the plan was computed.
+
+!ENTRY org.eclipse.ui 4 0 2025-10-01 16:50:54.601
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.p2.operations.ProfileChangeOperation.getResolutionResult()" because "this.operation" is null
+	at org.eclipse.equinox.internal.p2.ui.dialogs.ProvisioningOperationWizard.getNextPage(ProvisioningOperationWizard.java:168)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.WizardWithLicenses.getNextPage(WizardWithLicenses.java:78)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.getStartingPage(UpdateWizard.java:169)
+	at org.eclipse.jface.wizard.WizardDialog.showStartingPage(WizardDialog.java:1269)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:638)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.openUpdateWizard(ProvisioningUI.java:315)
+	at org.eclipse.equinox.internal.p2.ui.sdk.UpdateHandler$2.lambda$0(UpdateHandler.java:66)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5039)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)

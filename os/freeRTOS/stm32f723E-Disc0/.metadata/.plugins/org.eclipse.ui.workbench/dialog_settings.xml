@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialog">
+		<item key="DIALOG_X_ORIGIN" value="656"/>
+		<item key="DIALOG_Y_ORIGIN" value="153"/>
+		<item key="DIALOG_WIDTH" value="825"/>
+		<item key="DIALOG_HEIGHT" value="551"/>
+		<item key="DIALOG_FONT_NAME" value="1|Roboto|10.0|0|GTK|1|"/>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="-38"/>
+		<item key="DIALOG_Y_ORIGIN" value="-311"/>
+		<item key="DIALOG_WIDTH" value="688"/>
+		<item key="DIALOG_HEIGHT" value="822"/>
+		<item key="DIALOG_FONT_NAME" value="1|Roboto|10.0|0|GTK|1|"/>
+	</section>
+</section>
